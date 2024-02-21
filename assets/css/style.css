@@ -1,0 +1,116 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+#title {
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+    padding: 0.2rem;
+    font-size: 1.6rem;
+    font-weight:lighter;
+}   
+
+header {
+    
+    background-image: url(../img/bg-header.jpg);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+#description {
+    background: #000000;
+    padding: 4em;
+    color: #ffffff;
+    margin:auto;
+    padding-left: 20%;
+}
+#descripcion .wrapper {
+    width: 65em;
+    margin: auto;
+}
+
+.wrapper img {
+    width: 20rem;
+}
+.wrapper .text {
+    width: 40%;
+    text-align:left;
+    margin-right: 7%;
+    font-size: 0.8rem;
+    font-weight:lighter;
+    opacity: 0.7;
+}
+
+.wrapper img, .text {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#icon {
+    background-color:#1e1a13;
+    color: #ffffff;
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 3rem;
+    font-weight: lighter;
+}
+
+#icon div {
+    width: 10rem;
+    display: inline-block;
+    padding: 3rem 0rem;
+    margin: 0 1.5rem;
+    vertical-align: middle;
+}
+    
+#icon i {
+    margin-bottom: 0.6rem;
+    font-size: 2.5rem;
+}
+
+#icon p {
+    text-align:center;
+    font-size: 1.2rem;
+}
+
+#look {
+    background-color: #000000;
+    text-align: center;
+    padding: 3em;
+    
+}
+
+#look .iguana {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0.2rem;
+    height: 10rem;
+    width: 15rem;
+
+}
+
+footer {
+    background-color:#1e1a13;
+    color: #ffffff;
+    padding: 3rem;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight:lighter;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
